@@ -1,0 +1,36 @@
+body{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100vw 100vh;
+    /* background-size: cover; */
+    /* height: 100vh; */
+   
+
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    background: linear-gradient(rgb(175, 243, 175) , rgb(250, 250, 165));
+    width: 90vmin;
+    height: 92vmin;
+    border: 3px solid black;
+    display: grid;
+    grid-template-rows: repeat(18 , 1fr);
+    grid-template-columns: repeat(18 , 1fr);
+}
+
+.head{
+    background-color: red;
+}
+
+.sanke{
+    background-color: rgb(53, 6, 97);
+}
+
+.food{
+    background-color: orange;
+}
